@@ -1,0 +1,142 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+header{
+
+  background-color:#ff4444;
+}
+header div{
+  height: 100%;
+}
+header div .logo{
+  height: 100%;
+}
+.cont-redes{
+  text-align: right;
+}
+.redes{
+  height: 30px;
+  margin-top:80px;
+}
+.ancho{
+  width: 100%;
+}
+.nav-menu{
+  width: 100%;
+  text-align: center;
+  background-color: #ff4444;
+}
+.ul-menu{
+  width: 100%;
+  margin-bottom: 0px !important;
+}
+.menu{
+  width: 16%;
+  padding: 0px;
+  margin: 0px;
+}
+.boton-menup{
+  width: 100%;
+  background-color: #4285F4;
+  margin-bottom: 10px;
+}
+.altura-auto{
+  height: 150px;;
+}
+.altura-menu{
+  height: auto !important;
+  padding: 0px;
+}
+.rojo-text{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.hillsong-text{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.rojo-foto{
+  padding-top: 100px;
+}
+.hillsong-foto{
+  margin: auto;
+  width: 90%;
+  border: 5px white solid
+}
+.margin-row{
+  padding-top: 100px;
+}
+.altura{
+  height: 100%;
+}
+.tamano-icon{
+  font-size: 3em;
+  width: 3em;
+}
+i{
+  width: 3em;
+  padding-top: 5px;;
+}
+.pad{
+  padding: 0px !important;
+}
+.contenido{
+  margin: auto;
+  background-color: #ff8a65;
+}
+.buscar{
+  margin: 0px;
+  padding: 1px;
+  background-color: #ff3d00;
+}
+.buinput{
+  margin: auto;
+  padding: 2px;
+}
+@media(max-width: 769px) {
+  .cont-redes{
+    text-align: center;
+    height: auto;
+  }
+  header div{
+    text-align: center;
+    height: auto;
+  }
+  .redes{
+    margin-top: 2px;
+    margin-bottom: 8px;
+  }
+  .menu{
+    width: 100%;
+    padding: 0px !important;
+    margin: 0px;
+  }
+  .boton-menup{
+    width: 100%;
+    background-color: #4285F4;
+    margin-bottom: 0px;
+  }
+  .ul-menu{
+    width: 100%;
+    margin: 0px !important;
+  }
+  .logo{
+    height: 80px !important;
+  }
+  .rojo-foto{
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin: auto !important;
+  }
+  .buinput{
+    display: none;
+  }
+  .lista{
+    display:none;
+  }
+  .margin-row{
+    padding-top: 5px;
+  }
+}

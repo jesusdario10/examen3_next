@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: url(../img/fondo2.jpg);
+  background-attachment: fixed;
+  font-family: 'Indie Flower', cursive;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contenedor-color{
+  height: 190px !important;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+  left: 0px;
+  top:0px;
+}
+.logo{
+  max-height: 120px !important;
+  padding: 0px !important;
+}
+.contenedor-principal{
+  position: static;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  z-index: 1;
+}
+.transparencia{
+  background: rgba(76, 175, 80, 0.0) !important;
+}
+.navegacion{
+  height: auto !important;
+  box-shadow: 0px!important;
+  display: inline-block !important;
+  margin-top: 30px;
+}
+.slogan{
+  margin-top: 20px;
+}
+.alto{
+  height: 2500px;
+}
+.redes{
+  margin-bottom: 50px;;
+}
+.galeria{
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 20px;;
+}
+.imagenes{
+  margin-top: 10px;
+  text-align: center;
+}
+.margin-galeria{
+  margin-bottom: 60px;
+}
+.borde-fecha{
+  margin-right: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  padding: 2px;
+}
+.texto{
+  margin-top: 170px;
+  color: white;
+  text-align: justify;
+}
+.texto-avatar{
+  color: white;
+  text-align: justify;
+}
+
+@media(max-width:992px){
+  .slogan2{
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+  }
+  .texto{
+    margin-top: 5px;
+    color: white;
+    text-align: justify;
+  }
+}

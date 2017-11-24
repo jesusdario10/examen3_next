@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  color:white;
+  font-family: 'Indie Flower', cursive;
+}
+.fondo{
+  background: url(../img/fondo2.jpg) !important;
+  background-size: cover;
+
+
+}
+.contenedor{
+  width: 80%;
+  margin: auto;
+}
+.filas{
+  background: rgba(255,0,0,0.5);
+}
+.bordeder{
+  border-right: 1px dashed white;
+}
+.bordes{
+  border: 1px solid white;
+  margin: 1px;
+}
+.bordebottom{
+  border-bottom: 1px dashed white;
+}
+.texto-header h4,p{
+  font-family: 'Indie Flower', cursive;
+}
+h3{
+  font-family: 'Indie Flower', cursive;
+}
+.texto-header p{
+  font-family: 'Indie Flower', cursive;
+  text-align: right;
+}
+.izquierda, .derecha{
+  height: 200px;
+}
+.buscar{
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+.letramenu{
+  color: white;
+}
+.favorito{
+  height: 70px;
+  border-radius: 15px;
+  padding: 5px
+}
+.lista{
+  list-style: none;
+  margin-left:0px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.recetas{
+  margin: 10px;
+  border-radius: 10px;
+  width: 90%;
+  height: 90%;
+}
+textarea, label{
+  width: 98%;
+  margin-left: 2px;
+  color: white;
+}
+.pequeno{
+  text-align: center;
+}
+.avatar{
+  height: 50px;
+  margin-left: 5px;
+
+}
